@@ -1,5 +1,5 @@
 import { MikroORM } from "@mikro-orm/core";
-// import { __prod__ } from "./constants";
+import { __prod__ } from "./constants";
 import { Product } from "./entities/Product";
 import microConfig from "./mikro-orm.config";
 
