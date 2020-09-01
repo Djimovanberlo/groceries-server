@@ -7,7 +7,7 @@ console.log("dirname: ", __dirname);
 export default {
   migrations: {
     path: path.join(__dirname, "./migrations"),
-    pattern: /^[\w-]+\d+\.[ts]j$/,
+    pattern: /^[\w-]+\d+\.[tj]s$/,
   },
   entities: [Product],
   dbName: "groceries",

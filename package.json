@@ -26,11 +26,8 @@
     "@mikro-orm/core": "^4.0.0-alpha.0",
     "@mikro-orm/migrations": "^4.0.0-alpha.0",
     "@mikro-orm/postgresql": "^4.0.0-alpha.0",
-    "@types/node": "^14.6.0",
     "nodemon": "^2.0.4",
-    "pg": "^8.3.2",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "pg": "^8.3.2"
   },
   "mikro-orm": {
     "useTsNode": true,
@@ -38,5 +35,10 @@
       "./src/mikro-orm.config.ts",
       "./dist/mikro-orm.config.js"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
   }
 }
