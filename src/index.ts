@@ -6,6 +6,7 @@ import microConfig from "./mikro-orm.config";
 const main = async () => {
   console.log("dirname: ", __dirname);
   const orm = await MikroORM.init(microConfig);
+  await orm.getMigrator().up();
   const newProduct = orm.em.create(Product, { name: "Pasta" });
   await orm.em.persistAndFlush(newProduct);
 };
