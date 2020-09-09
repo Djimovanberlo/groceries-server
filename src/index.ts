@@ -18,3 +18,4 @@ main().catch((err) => {
 console.log("HELLO GROCERIES");
 
 // guide: https://www.youtube.com/watch?v=I6ypD7qv3Z8&feature=youtu.be
+// ~35:00
