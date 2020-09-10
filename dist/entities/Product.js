@@ -22,15 +22,15 @@ __decorate([
     __metadata("design:type", Number)
 ], Product.prototype, "id", void 0);
 __decorate([
-    core_1.Property(),
+    core_1.Property({ type: "date" }),
     __metadata("design:type", Object)
 ], Product.prototype, "createdAt", void 0);
 __decorate([
-    core_1.Property({ onUpdate: () => new Date() }),
+    core_1.Property({ type: "date", onUpdate: () => new Date() }),
     __metadata("design:type", Object)
 ], Product.prototype, "updatedAt", void 0);
 __decorate([
-    core_1.Property(),
+    core_1.Property({ type: "text" }),
     __metadata("design:type", String)
 ], Product.prototype, "name", void 0);
 Product = __decorate([
