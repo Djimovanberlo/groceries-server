@@ -45,3 +45,4 @@ console.log("HELLO GROCERIES");
 
 // guide: https://www.youtube.com/watch?v=I6ypD7qv3Z8&feature=youtu.be
 // 1:11:45
+// next to do: set up relations
